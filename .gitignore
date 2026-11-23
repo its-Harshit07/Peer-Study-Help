@@ -8,6 +8,10 @@ node_modules/
 *.env
 !.env.example
 
+# Vercel deployment cache & project state
+.vercel/
+*/.vercel/
+
 # Production builds
 dist/
 build/

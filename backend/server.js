@@ -467,3 +467,5 @@ const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
   console.log(`Peer Explainer Server running on http://localhost:${PORT}`);
 });
+
+module.exports = app;
